@@ -1,0 +1,478 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!--title-->
+    <title>Transport Service</title>
+    <!--meta-->
+    <meta charset="utf-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!--Title icon-->
+    <link rel="shortcut icon" href="img/titleicon.png" type="image/x-icon" />
+    <!--link css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <!--link icons-->
+    <link rel="stylesheet" type="text/css" href="icons/fontawesome/css/all.min.css" />
+
+    <!--settings css for slider-->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css" />
+
+</head>
+
+<body>
+
+    <!--Head Start-->
+    <div id="head">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <!--MainLogo-->
+                    <div class="mainLogo">
+                        <!--SiteBrand-->
+                        <div class="siteBrand">
+                            <img src="img/logo.png" alt="logo" />
+                        </div>
+                        <!--SiteBrand End-->
+                    </div>
+                    <!--MainLogo end-->
+                    <!--Scalable Vector Graphics-->
+                    <svg>
+                        <polygon points="0,0 0, 150 70, 150"></polygon>
+                    </svg>
+                    <!--border-->
+                    <p class="solid"></p>
+                </div>
+                <div class="column">
+                    <div id="topmenu">
+                        <a href="#">Extras</a>
+                        <a href="#">Buy Now</a>
+                        <a href="#">Theme Documentation</a>
+                    </div>
+
+                    <!--SocialMenu-->
+                    <div id="socialMenu">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-vimeo-square"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+
+                    <div id="bottomaddress">
+                        <div class="bottomone">
+                            <i class="fas fa-phone-alt"></i>
+                            <h3>1-775-97-377</h3>
+                            <span>info@thememove.com</span>
+                        </div>
+                        <div class="bottomtwo">
+                            <i class="fas fa-home"></i>
+                            <h3>14 Tottenham Road</h3>
+                            <span>London, England</span>
+                        </div>
+                        <div class="bottomthree">
+                            <i class="far fa-clock"></i>
+                            <h3>Mon - Sat : 9AM - 6PM</h3>
+                            <span>opening time</span>
+                        </div>
+                        <div class="bottomfour" style="text-align: left; padding-left: 50px;">
+                            <div id="myOverlay" class="overlay">
+                                <span class="closebtn" onclick="closeSearch()" title="Close Overlay" style="color: white; font-size: 30px;">×</span>
+                                <div class="overlay-content">
+                                    <form action="#">
+                                        <input type="text" placeholder="Search.." name="search">
+                                        <button type="submit"><i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <button class="openBtn" onclick="openSearch()">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Main Menu-->
+    <div id="mainmenu">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <div>Home</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="services.html">
+                        <div>Services <i class="fas fa-caret-down"></i></div>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="warehousing.html">
+                                <div>Warehousing</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="logistic.html">
+                                <div>Logistic Services</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="aboutus.html">
+                        <div>About Us</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="shop.html">
+                        <div>Shop</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="blog.html" class="active">
+                        <div>Blog</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <div>Contact</div>
+                    </a>
+                </li>
+                <li style="float: right;">
+                    <a href="#">
+                        <div><i class="fas fa-shopping-cart"></i>(0)</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--About Title-->
+    <div id="blog_title">
+        <div class="container">
+            <div class="image_overlay">
+                <h1 class="entry_title">Classic Blog</h1>
+            </div>
+            <div class="blog">
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Classic Blog</a></li>
+                </ol>
+                <svg>
+                    <polygon points="0,0 0, 150 70, 150"></polygon>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div id="blog_post">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="blogpostimg">
+                        <div class="dates">
+                            <span class="month">July</span>
+                            <span class="date">06</span>
+                            <span class="year">2016</span>
+                        </div>
+
+                        <svg>
+                            <polygon points="0,0 0, 150 70, 150"></polygon>
+                        </svg>
+                    </div>
+                </div>
+                <div class="column">
+                    <form action="#" class="example">
+                        <input type="text" placeholder="search..." name="search" />
+                        <button type="button"><i class="fas fa-search"></i></button>
+                    </form>
+
+                    <div id="mainrecentpostwrap">
+                        <h2 class="recent">Recent Posts</h2>
+
+                        <div class="recentpost">
+                            <img class="img1" src="img/services03.jpg" alt="service03" />
+                            <p>
+                                Freight Transport in Alaska: The Haul of the Wild
+                            </p>
+                        </div>
+
+                        <div class="recentpost clearfix">
+                            <img class="img1" src="img/ship.jpg" alt="ship" />
+                            <p>
+                                Reducing Freight Costs
+                            </p>
+                        </div>
+
+                        <div class="recentpost clearfix">
+                            <img class="img1" src="img/product%20goal.jpg" alt="progoal" />
+                            <p>
+                                Perishable Logistics: Cold Chain on a Plane
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h3 class="wareservice">Why choose our warehousing service?</h3>
+                    <div class="postdetails">
+                        <i class="fas fa-user"></i>
+                        <span>Posted by <a href="#">admin</a></span>
+
+                        <i class="fas fa-folder"></i>
+                        <span>in <a href="#">Blog</a></span>
+
+                        <i class="fas fa-comments"></i>
+                        <span>in <a href="#">3 comments</a></span>
+                    </div>
+                    <div class="postexpect">
+                        <p>
+                            Alaska distinguishes itself from the lower 48 states by its abundance of natural resources—crude oil, natural gas, and seafood—as well […]
+                        </p>
+                    </div>
+                    <div class="contread">
+                        <div class="readmore">
+                            <button>
+                                <span style="text-transform: uppercase;">Continue Reading</span>
+                                <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
+                            </button>
+                        </div>
+                        <svg>
+                            <line x1="0" y1="0" x2="190" y2="315" />
+                        </svg>
+                        <div class="readicons">
+                            <div class="rightsocialicons">
+                                <a class="fas fa-share-alt"></a>
+                                <span style="float: left; line-height: 55px;">Share: </span>
+
+                                <a href="#" class="fab fa-facebook-f"></a>
+                                <a href="#" class="fab fa-twitter"></a>
+                                <a href="#" class="fab fa-google-plus-g"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3 class="cuslink">
+                        Custom links
+                    </h3>
+
+                    <div class="linklistgroup">
+                        <ul>
+                            <li>Login</li>
+                            <li>Entries <abbr title="Really Simple Syndication">RSS</abbr></li>
+                            <li>Comments <abbr title="Really Simple Syndication">RSS</abbr></li>
+                            <li>WordPress.org</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="blog_post">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="blogpostimg2">
+                        <div class="dates">
+                            <span class="month">June</span>
+                            <span class="date">26</span>
+                            <span class="year">2015</span>
+                        </div>
+
+                        <svg>
+                            <polygon points="0,0 0, 150 70, 150"></polygon>
+                        </svg>
+                    </div>
+                </div>
+                <div class="column">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h3 class="wareservice">Freight Transport in Alaska: The Haul of the Wild</h3>
+                    <div class="postdetails">
+                        <i class="fas fa-user"></i>
+                        <span>Posted by <a href="#">admin</a></span>
+
+                        <i class="fas fa-folder"></i>
+                        <span>in <a href="#">Blog</a></span>
+
+                        <i class="fas fa-comments"></i>
+                        <span>in <a href="#">3 comments</a></span>
+                    </div>
+                    <div class="postexpect">
+                        <p>
+                            Alaska distinguishes itself from the lower 48 states by its abundance of natural resources—crude oil, natural gas, and seafood—as well […]
+                        </p>
+                    </div>
+                    <div class="contread">
+                        <div class="readmore">
+                            <button>
+                                <span style="text-transform: uppercase;">Continue Reading</span>
+                                <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
+                            </button>
+                        </div>
+                        <svg>
+                            <line x1="0" y1="0" x2="190" y2="315" />
+                        </svg>
+                        <div class="readicons">
+                            <div class="rightsocialicons">
+                                <a class="fas fa-share-alt"></a>
+                                <span style="float: left; line-height: 55px;">Share: </span>
+
+                                <a href="#" class="fab fa-facebook-f"></a>
+                                <a href="#" class="fab fa-twitter"></a>
+                                <a href="#" class="fab fa-google-plus-g"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a class="active" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+        </div>
+    </div>
+
+    <!--Details Footer-->
+    <div id="detailsfooter">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="foot_title">
+                        <h2>About us</h2>
+                        <svg>
+                            <polygon points="0,0 0,150 70,150"></polygon>
+                        </svg>
+                    </div>
+                    <img src="img/logo.png" alt="logo" />
+                    <p style="padding: 20px 20px 20px 0;">Transport offers a host of logistic management services and supply chain solutions. We provide innovative solutions with the best people, processes, and technology.</p>
+
+                    <span>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-vimeo-square"></i>
+                        <i class="fab fa-dribbble"></i>
+                    </span>
+                </div>
+                <div class="column">
+                    <div class="foot_title">
+                        <h2>Information</h2>
+                        <svg>
+                            <polygon points="0,0 0,150 70,150"></polygon>
+                        </svg>
+                    </div>
+
+                    <div class="footerinfolistone">
+                        <ul>
+                            <li>About us</li>
+                            <li>Cart</li>
+                            <li>Contact</li>
+                            <li>Our services</li>
+                        </ul>
+                    </div>
+                    <div class="footerinfolisttwo">
+                        <ul>
+                            <li>Classic blog</li>
+                            <li>Checkout</li>
+                            <li>My Account</li>
+                            <li>Shop</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="foot_title">
+                        <h2>Transport Office</h2>
+                        <svg>
+                            <polygon points="0,0 0,150 70,150"></polygon>
+                        </svg>
+                    </div>
+
+                    <div class="officeinfo">
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>14 Tottenham Road, London, England.</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>(102) 6666 8888</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@thememove.com</span>
+                        </p>
+                        <p>
+                            <i class="fas fa-fax"></i>
+                            <span>(102) 8888 9999</span>
+                        </p>
+                        <p>
+                            <i class="far fa-clock"></i>
+                            <span>Mon - Sat: 9:00 - 18:00</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <!--Scalable Vector Graphics-->
+                <svg>
+                    <polygon points="0,0 0, 150 70, 150"></polygon>
+                </svg>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="madeheart">
+                        <span>Made with <i class="fas fa-heart"></i> by ThemeMove.com.</span>
+                    </div>
+                </div>
+                <div class="column">
+                    <span>&copy; Copyright 2015 Transport Inc. All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JavaScript files-->
+    <!--jQuery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!--Own js file-->
+    <script src="js/myfile.js"></script>
+
+</body>
+
+</html>
